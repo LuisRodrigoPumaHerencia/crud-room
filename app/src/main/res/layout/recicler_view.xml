@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre"
+        android:layout_marginRight="10dp"
+        android:text="nombre"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/usuario"
+        android:layout_marginRight="10dp"
+        android:text="usuario"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contrasena"
+        android:layout_marginRight="10dp"
+        android:text="contrasena"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_editar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        app:icon="@drawable/baseline_edit_24"
+        android:layout_gravity="center"
+        ></com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_eliminar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        app:icon="@drawable/baseline_delete_24"
+        android:layout_gravity="center"
+        ></com.google.android.material.button.MaterialButton>
+
+
+</LinearLayout>
